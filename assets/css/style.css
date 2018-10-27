@@ -130,15 +130,19 @@ li {
 .b1, .b2, .b3, .b4, .b5 {
     box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
     width: 30%;
-    margin-bottom: 10px;
+    position: relative;
+
 }
 .boxTitle {
     padding: 2px 16px;
+    width: 100%;
     color: #ffffff;
     text-align: center;
     background-color: #4aaaa5;
-    opacity: 70%;
     padding-bottom: 5px;
+    position: absolute;
+    bottom: 6%;
+    opacity: 0.8;
 }
 .b1 {
     float: left;
@@ -155,8 +159,10 @@ li {
 .b4 {
     float: right;
     margin: 12px;
+    top: 12px;
 }
 .b5 {
-    float: initial;
+    float: none;
     margin: 12px;
+    top: 24px;
 }
